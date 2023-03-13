@@ -49,3 +49,32 @@ case .address:
 case .phone:
     print("Editing Phone")
 }
+
+
+// For
+var counter = 0;
+
+for num in 0...10 {
+    counter += num
+    print("Number \(num)")
+}
+
+var countries = ["mx": "mexico", "co": "Colombia"]
+
+for (country, val) in countries {
+    print("\(country) = \(val)")
+}
+
+var age2 = 10;
+while age2 < 18 {
+    print("You're still being under 18")
+    age2 += 1
+}
+
+var otherNumbers = [1, 2, 3, 4, 6, 8, 8, 8]
+var totalOfElements = otherNumbers.count - 1
+
+repeat {
+    otherNumbers.remove(at: totalOfElements)
+    totalOfElements -= 1
+} while(otherNumbers.count > 0)
