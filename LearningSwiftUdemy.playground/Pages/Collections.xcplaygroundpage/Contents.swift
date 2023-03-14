@@ -37,3 +37,6 @@ print(person.0)
 var (name, lastname, age, height) = person
 var otherPerson = (firstName: "Some cool name", lastName: "Quiroz", age: 30, height: 1.69)
 print(otherPerson.lastName)
+
+
+//: [Next](@next)

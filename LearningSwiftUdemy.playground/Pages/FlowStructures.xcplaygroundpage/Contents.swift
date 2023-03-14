@@ -78,3 +78,5 @@ repeat {
     otherNumbers.remove(at: totalOfElements)
     totalOfElements -= 1
 } while(otherNumbers.count > 0)
+
+//: [Next](@next)

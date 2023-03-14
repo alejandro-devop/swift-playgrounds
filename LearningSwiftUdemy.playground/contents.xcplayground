@@ -8,5 +8,7 @@
         <page name='RangeOperator'/>
         <page name='Operators'/>
         <page name='Functions'/>
+        <page name='POO'/>
+        <page name='AdvancedTopics'/>
     </pages>
 </playground>
